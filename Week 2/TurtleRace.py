@@ -65,5 +65,3 @@ else:
 
 #screen should wait until user manually closes it
 raceTrack.exitonclick()
-
-
