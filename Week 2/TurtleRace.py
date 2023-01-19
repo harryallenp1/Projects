@@ -53,6 +53,12 @@ if distanceJack > distanceDrake and distanceMartin < distanceJack:
     print("Jack is the winner")
 elif distanceDrake > distanceJack and distanceDrake > distanceMartin:
     print("Drake is the winner")
+##Take home check if there s a tie between the turtles
+elif distanceDrake == distanceJack == distanceMartin:
+    print("Its a tie!")
+    
+
+    
 else:
     print("The winner is Martin")
     
@@ -60,4 +66,4 @@ else:
 #screen should wait until user manually closes it
 raceTrack.exitonclick()
 
-##Take home check if there s a tie between the turtles
+
