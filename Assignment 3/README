@@ -1,0 +1,37 @@
+Assignment 3: Collectible Item Database
+
+Overview:
+This assignment focuses on data persistence using file handling concepts in Python. The goal is to create a text file in CSV format to store and retrieve information about collectible items. The program should allow the user to add, edit, delete, search, and display collectible items using a menu-based interface.
+
+File Structure:
+The assignment should be organized in a folder named as Firstname_Lastname_A3, containing the following files:
+
+ItemModule.py: This file contains the Item class with class variables to store the filename and file object. It has an init() method to open the CollectibleDB.txt file with append permission if it exists, otherwise creates a new file. It also has static methods to perform operations like adding, editing, deleting, searching, and displaying collectible items in the file.
+
+ApplicationModule.py: This file contains the Application class with a run() method that displays a menu to the user and calls the respective method of the Item class based on user's selection. It terminates the application when the user chooses to exit.
+
+CollectibleDB.txt: This is the text file in CSV format that stores the information about collectible items. It is created and managed by the ItemModule.py class.
+
+readme.txt: This is the readme file that provides instructions, overview, and details about the assignment.
+
+Usage:
+
+Download and extract the assignment files in a folder of your choice.
+
+Make sure you have Python installed on your system.
+
+Open a command prompt or terminal window and navigate to the folder containing the assignment files.
+
+Run the ApplicationModule.py file using the Python interpreter by typing "python ApplicationModule.py" and pressing Enter.
+
+The program will display a menu with options to perform various operations on the collectible items. Choose the desired option by entering the corresponding number and pressing Enter.
+
+Follow the prompts to enter the required information for each operation. The program will perform the operation and display the result accordingly.
+
+To exit the program, choose option 6 (Exit) from the menu.
+
+Note: The CollectibleDB.txt file will be created and managed automatically by the program. It will store the information about collectible items in CSV format, with each item as a separate record in a new line.
+
+Exception Handling:
+The program includes proper exception handling measures to handle file-related errors, such as file not found, permission denied, etc. If any error occurs, an appropriate error message will be displayed to the user.
+ 
